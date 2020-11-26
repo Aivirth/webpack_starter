@@ -9,8 +9,8 @@
     "scripts": {
         "build": "webpack --config webpack.prod.js",
         "start": "webpack --config webpack.dev.js",
-        "start_dev": "webpack serve --config webpack.dev.js ",
-        "build_dev": "webpack serve --config webpack.prod.js "
+        "start_dev": "webpack-cli serve --config webpack.dev.js ",
+        "build_dev": "webpack-cli serve --config webpack.prod.js "
     },
     "devDependencies": {
         "@babel/core": "^7.12.9",
